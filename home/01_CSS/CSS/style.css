@@ -1,0 +1,36 @@
+body {
+    background-color: #eee;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: blue;
+    font-size: 45px;
+    text-align: center;
+}
+
+h2 {
+    color: darkblue;
+    text-align: center
+}
+
+h3 {
+    color: rgb(44, 44, 114);
+}
+
+a {
+    color: red;
+}
+
+.text2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text {
+    color: brown;
+}
+
+.text1 {
+    color: darkorange;
+}
+

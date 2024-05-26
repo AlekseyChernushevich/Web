@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .format {
+            width: 700px;
+            height: 700px;
+        }
+
+        .Fileformats {
+            width: 600px;
+            padding: 5px;
+            border: 1px solid black;
+            font-size: 16px;
+            border-radius: 0px 10px 0px 10px;
+        }
+
+        .document span {
+            position: absolute;
+            visibility: hidden;
+            transform: translate(50%, 0%);
+        }
+
+        .document:hover span {
+            visibility: visible; 
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="format">
+        <h1>Форматы файлов.</h1>
+
+        <div class="Fileformats">
+            <p>.DOC или .doc (от англ. <img src="img/img doc.png">  <a href="#">document </a>) - расширение
+                имени файла, используемое для файлов, представляющих текст, с разметкой или без. Расширение .DOC часто
+                использовалось для обозначения простых текстовых файлов без
+                формирования, однако позже стало испольщоваться для двоичных форматов с разметкой <br>
+                <a href="#Документ MS World">Документ MS World  </a><img src="img/img word.jpeg">
+
+            </p>
+        </div>
+
+        <div class="Fileformats">
+            <p>Portable Document Format (<img src="img/img doc.png">  <a href="#">PDF</a>) -
+                межплатформенный формат электронных документов, разработанный
+                фирмой Adobe Systems с использованием ряда возможностей языка Postscript. <br>
+                <a href="#Документ PDF">Документ PDF  </a><img src="img/img pdf.png">
+
+            </p>
+        </div>
+
+        <div class="Fileformats">
+            <p>ZIP - популярный формат сжатия данных и архивации файлов. Файл в этом формате обычно имеет расширение
+                <img src="img/img doc.png"> <a href="#">.zip </a> и хранит в сжатом или
+                несжатом виде один
+                или
+                несколько файлов, которые, которые можно из него извлечь путем распаковки с помощью специальной
+                программы.<br>
+                <a href="#Архив">Архив  </a><img src="img/img zip.gif">
+            </p>
+        </div>
+
+
+        <div>
+            <h2>Это список файлов</h2>
+            <div id="Документ MS World">
+                <img src="img/img file.jpeg">   
+                <a class="document" href="#">Документ MS World<span><img src="img/img word.jpeg"></span></a>
+            </div>
+            <div id="Документ PDF">
+                <img src="img/img file.jpeg">   
+                <a class="document" href="#" target="_blank">Документ PDF<span><img src="img/img pdf.png"></span></a>
+            </div>
+            <div id="Архив">
+                <img src="img/img file.jpeg">   
+                <a class="document" href="#">Архив<span><img src="img/img zip.gif"></span></a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
